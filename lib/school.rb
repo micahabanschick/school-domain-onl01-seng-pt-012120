@@ -24,7 +24,7 @@ class School
   
   def sort 
     self.roster.sort_by(&:first) #{|grade1, grade2| grade2<=>grade1}
-    self.roster
+    #self.roster
   end 
   
 end
