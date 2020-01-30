@@ -23,7 +23,7 @@ class School
   end 
   
   def sort 
-    self.roster.keys.sort{|grade1, grade2| grade1<=>grade2}
+    self.roster.keys.sort!{|grade1, grade2| grade1<=>grade2}
     self.roster
   end 
   
