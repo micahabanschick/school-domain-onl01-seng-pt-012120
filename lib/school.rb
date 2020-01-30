@@ -24,7 +24,7 @@ class School
   
   def sort 
     self.roster.sort{|grade1, grade2| grade1<=>grade2}.to_h
-    self.roster
+    
   end 
   
 end
