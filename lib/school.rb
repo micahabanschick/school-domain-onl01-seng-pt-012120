@@ -10,6 +10,7 @@ class School
     
   
   def add_student(student,grade)
+    if grade != nil 
     self.roster[grade] << [student] 
   end
   
