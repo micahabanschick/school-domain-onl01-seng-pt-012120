@@ -23,7 +23,8 @@ class School
   end 
   
   def sort 
-    self.roster.sort_by(&:last).to_h #{|grade1, grade2| grade2<=>grade1}
+    self.roster[9].sort{|g1,g2| g1<=>g2}
+    self.roster.sort_by(&:first).to_h #{|grade1, grade2| grade2<=>grade1}
     #self.roster
   end 
   
