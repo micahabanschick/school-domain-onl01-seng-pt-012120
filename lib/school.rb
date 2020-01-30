@@ -15,6 +15,7 @@ class School
       self.roster[grade] << student
     else 
       self.roster[grade] << student 
+      self.sort
     end 
   end
   
